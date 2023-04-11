@@ -3,7 +3,8 @@ import reactLogo from '../assets/react.svg'
 
 interface itemProps{
     name?: any,
-    price?: any
+    price?: any,
+    img?: any
 }
 
 let cart: any = []
@@ -23,7 +24,7 @@ export default function Card(itemProps: itemProps = {name: "", price: 0}) {
 
     return (
         <div className="max-w-sm rounded shadow-lg">
-            <img className="w-full" src={reactLogo} />
+            <img className="w-full" src={itemProps["img"]} />
             <div className='flex flex-col justify-center'>
                 <div className="px-6 py-4">
                     <div className="mb-2 text-xl font-bold">{itemProps['name']}</div>
