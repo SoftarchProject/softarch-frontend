@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         {/* Image background */}
         <img className='object-cover w-full aspect-video md:aspect-[13/3]' src={gardenBackground} ></img>
-        
+
         {/* For loop Selling section */}
         <div className="container mx-auto text-2xl font-bold text-blue-600 md:text-4xl">
             <h1 className='py-2'> Decorative tree </h1>
