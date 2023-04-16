@@ -16,11 +16,11 @@ function Navbar() {
     };
 
     return (
-        <nav className="fixed top-0 left-0 z-20 w-full bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-600">
+        <nav className="fixed top-0 left-0 z-20 w-full bg-gray-900 border-b border-gray-200 dark:border-gray-600">
             <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
                 <a href="/" className="flex items-center">
                     <img src={treeLogo} className="h-8 mr-3 rounded-[180px]" alt="Flowbite Logo" />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Logo</span>
+                    <span className="self-center text-2xl font-semibold text-white whitespace-nowrap">Logo</span>
                 </a>
                 <div className="flex md:order-2">
                     <div className="relative inline-block text-left">
